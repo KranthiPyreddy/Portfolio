@@ -276,7 +276,7 @@ export default function Portfolio() {
               <div key={index} className="max-w-4xl mx-auto">
                 <div className="bg-white dark:bg-gray-900 rounded-2xl p-8 shadow-lg">
                   <h3 className="text-3xl font-bold tracking-tight mb-4">{project.title}</h3>
-                  <p className="text-xl text-gray-600 dark:text-gray-300 mb-6">{project.description}</p>
+                  <p className="text-xl text-gray-600 dark:text-gray-200 mb-6">{project.description}</p>
 
                   <div className="grid md:grid-cols-2 gap-8 mb-6">
                     <div>
@@ -285,7 +285,7 @@ export default function Portfolio() {
                       </h4>
                       <ul className="space-y-2">
                         {project.highlights.map((highlight, idx) => (
-                          <li key={idx} className="flex items-center gap-3 text-gray-600 dark:text-gray-300">
+                          <li key={idx} className="flex items-center gap-3 text-gray-600 dark:text-gray-200">
                             <CheckCircle className="w-5 h-5 text-green-500" />
                             {highlight}
                           </li>
@@ -364,8 +364,8 @@ export default function Portfolio() {
                   </div>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-sm mb-2">Key Features:</h4>
-                  <ul className="text-xs text-gray-600 dark:text-gray-300 space-y-1">
+                  <h4 className="font-semibold text-sm mb-2 text-gray-900 dark:text-gray-100">Key Features:</h4>
+                  <ul className="text-xs text-gray-700 dark:text-gray-200 space-y-1">
                     <li>• Risk-based authentication with fraud detection</li>
                     <li>• Real-time transaction monitoring</li>
                     <li>• Regulatory reporting automation</li>
@@ -397,8 +397,8 @@ export default function Portfolio() {
                   </div>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-sm mb-2">Key Features:</h4>
-                  <ul className="text-xs text-gray-600 dark:text-gray-300 space-y-1">
+                  <h4 className="font-semibold text-sm mb-2 text-gray-900 dark:text-gray-100">Key Features:</h4>
+                  <ul className="text-xs text-gray-700 dark:text-gray-200 space-y-1">
                     <li>• OT/IT network segmentation</li>
                     <li>• Industrial device identity management</li>
                     <li>• Just-in-time access for maintenance</li>
@@ -430,8 +430,8 @@ export default function Portfolio() {
                   </div>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-sm mb-2">Key Features:</h4>
-                  <ul className="text-xs text-gray-600 dark:text-gray-300 space-y-1">
+                  <h4 className="font-semibold text-sm mb-2 text-gray-900 dark:text-gray-100">Key Features:</h4>
+                  <ul className="text-xs text-gray-700 dark:text-gray-200 space-y-1">
                     <li>• Patient data access controls</li>
                     <li>• Medical device authentication</li>
                     <li>• Break-glass emergency access</li>
@@ -493,7 +493,7 @@ export default function Portfolio() {
                   </div>
                   <div>
                     <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400">Email</h4>
-                    <p className="text-lg hover:text-blue-600 dark:hover:text-blue-400">kranthipyre@gmail.com</p>
+                    <p className="text-lg hover:text-blue-600 dark:hover:text-blue-400">Send me a message</p>
                   </div>
                 </Link>
 
@@ -506,7 +506,7 @@ export default function Portfolio() {
                   </div>
                   <div>
                     <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400">LinkedIn</h4>
-                    <p className="text-lg hover:text-blue-600 dark:hover:text-blue-400">kranthipyreddy330</p>
+                    <p className="text-lg hover:text-blue-600 dark:hover:text-blue-400">Connect with me</p>
                   </div>
                 </Link>
 
@@ -519,7 +519,7 @@ export default function Portfolio() {
                   </div>
                   <div>
                     <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400">GitHub</h4>
-                    <p className="text-lg hover:text-blue-600 dark:hover:text-blue-400">KranthiPyreddy</p>
+                    <p className="text-lg hover:text-blue-600 dark:hover:text-blue-400">View my repositories</p>
                   </div>
                 </Link>
               </div>

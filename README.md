@@ -208,7 +208,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👤 Author
 
 **Kranthi Pyreddy**
-- **Email**: kranthi.pyreddy@student.saultcollege.ca
+- **Email**: kranthipyre@gmail.com
 - **LinkedIn**: [kranthipyreddy330](https://www.linkedin.com/in/kranthipyreddy330/)
 - **GitHub**: [KranthiPyreddy](https://github.com/KranthiPyreddy)
 
