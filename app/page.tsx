@@ -582,10 +582,15 @@ export default function Portfolio() {
           <div className="text-center">
             <p className="text-sm text-muted-foreground mb-4">Or reach out directly:</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <div className="flex items-center gap-2 text-sm">
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => (window.location.href = "mailto:kranthipyre@gmail.com")}
+                className="flex items-center gap-2"
+              >
                 <Mail className="w-4 h-4" />
-                <span className="font-mono">kranthi.pyreddy@student.saultcollege.ca</span>
-              </div>
+                Send Email
+              </Button>
               <Button variant="outline" size="sm" asChild>
                 <Link href="https://www.linkedin.com/in/kranthipyreddy330/" className="flex items-center gap-2">
                   <Linkedin className="w-4 h-4" />
