@@ -71,10 +71,15 @@ export default function Portfolio() {
   ]
 
   const certifications = [
-    "Certified Information Security Manager (CISM)",
-    "AWS Certified Security - Specialty",
-    "Microsoft Azure Security Engineer Associate",
-    "Okta Certified Professional",
+    "Oracle Cloud Infrastructure Certified Associate (2019-2020)",
+    "Oracle Cloud Infrastructure Certified Architect Associate (2019)",
+    "Oracle Cloud Infrastructure Cloud Operations Certified Associate (2019)",
+    "AWS Certified Security Specialty",
+    "Microsoft Identity and Access Administrator (SC-300)",
+    "Certified Network Design and Architect",
+    "The Fundamentals of Digital Marketing",
+    "Prompt Engineering with Llama 2",
+    "Verified International Academic Qualifications",
   ]
 
   const [formState, setFormState] = useState<{
